@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MyGames-Snake-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"body",
+		"dir",
+		"color"
+	],
+	"name" : "Snake",
+	"type" : "normal"
+}

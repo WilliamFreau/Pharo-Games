@@ -1,4 +1,4 @@
 Drawing
 clear
-   self area fillColor: Color white.
+   self area fillColor: self defaultColor .
    self changed
