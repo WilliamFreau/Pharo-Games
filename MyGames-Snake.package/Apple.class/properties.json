@@ -6,12 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"body",
-		"dir",
-		"color",
-		"score",
-		"alive"
+		"position"
 	],
-	"name" : "Snake",
+	"name" : "Apple",
 	"type" : "normal"
 }
