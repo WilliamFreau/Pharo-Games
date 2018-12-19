@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Morph",
-	"category" : "MyGames-Snake",
+	"category" : "MyGames-Snake-Render",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
