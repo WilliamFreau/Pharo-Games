@@ -6,11 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"body",
-		"color",
-		"score",
-		"alive"
+		"dir",
+		"posMin",
+		"posMax",
+		"apples"
 	],
-	"name" : "Snake",
+	"name" : "Input",
 	"type" : "normal"
 }
