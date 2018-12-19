@@ -6,10 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dir",
-		"posMin",
-		"posMax",
-		"apples"
+		"apples",
+		"advs"
 	],
 	"name" : "Input",
 	"type" : "normal"
