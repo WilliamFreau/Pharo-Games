@@ -1,0 +1,3 @@
+Default
+windowName
+	^'Snake !'

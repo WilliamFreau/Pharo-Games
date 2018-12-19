@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Windows",
+	"instvars" : [
+		"window",
+		"drawingArea"
+	],
+	"name" : "SnakeWindows",
 	"type" : "normal"
 }

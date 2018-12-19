@@ -1,0 +1,3 @@
+Default
+defaultColor 
+	^Color gray
