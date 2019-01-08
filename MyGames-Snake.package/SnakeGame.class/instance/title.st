@@ -1,0 +1,3 @@
+initialization
+title
+	^'Snake Game'

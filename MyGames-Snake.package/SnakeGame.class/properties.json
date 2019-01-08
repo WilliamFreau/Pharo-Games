@@ -1,14 +1,17 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ComposablePresenter",
 	"category" : "MyGames-Snake-Render",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"window",
-		"drawingArea"
+		"startButton",
+		"pauseButton",
+		"resetButton",
+		"gameShow",
+		"buffer"
 	],
-	"name" : "SnakeWindows",
+	"name" : "SnakeGame",
 	"type" : "normal"
 }
