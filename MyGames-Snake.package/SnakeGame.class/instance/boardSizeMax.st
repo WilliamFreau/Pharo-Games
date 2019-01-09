@@ -1,3 +1,3 @@
 gaming
 boardSizeMax
-	^50@50
+	^70@70
