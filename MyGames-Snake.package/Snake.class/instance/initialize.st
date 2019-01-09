@@ -3,5 +3,5 @@ initialize
 	super initialize.
 	body := OrderedCollection new.
 	color := Snake getRandomColor.
-	alive := false.
+	alive := true.
 	score := 0.

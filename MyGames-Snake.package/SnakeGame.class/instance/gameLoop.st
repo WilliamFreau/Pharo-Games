@@ -1,6 +1,6 @@
 thread
 gameLoop
-	| input temp|
+	| input |
 	input := SnakeInput new.
 	
 	input boardSizeMin: self boardSizeMin.
@@ -10,8 +10,9 @@ gameLoop
 	snakes do: [ :aSnake | input addSnake: aSnake ].
 	
 	snakes do: [ :aSnake | 
-		self applyMovement: (aSnake computeStep: input) to: aSnake
+		self applyMovement: (aSnake computeStep: input) to: aSnake.
+		self checkDeadSnake: aSnake.
+		self checkEat: aSnake.
 		].
 	
-	temp := true.
-	snakes do: [ :aSnake | temp := aSnake alive and: temp. temp ifFalse: [ stop := true ]]
+	stop := (snakes at: 1) alive not

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RandomSnake",
+	"category" : "MyGames-Snake-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RandomAvoidItself",
+	"type" : "normal"
+}
