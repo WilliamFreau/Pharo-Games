@@ -1,5 +1,5 @@
 initialization
-initialize
+initialize 
 	super initialize.
 	
 	buffer := SnakeCanvas new.
