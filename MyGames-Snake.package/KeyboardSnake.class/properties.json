@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Snake",
+	"category" : "MyGames-Snake-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "KeyboardSnake",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 Default
-size
+cellSize
 	^10@10

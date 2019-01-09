@@ -1,3 +1,7 @@
 thread
 drawing
-	self buffer area fillColor: { Color blue. Color red. Color green. Color purple. Color darkGray. } atRandom.
+	self buffer clear.
+	
+	"Draw all snakes and apple"
+	snakes do: [ :aSnake | self buffer drawSnake: aSnake ].
+	apples do: [ :anApple | self buffer drawApple: anApple ].

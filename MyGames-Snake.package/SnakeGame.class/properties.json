@@ -10,7 +10,9 @@
 		"pauseButton",
 		"resetButton",
 		"gameShow",
-		"buffer"
+		"buffer",
+		"snakes",
+		"apples"
 	],
 	"name" : "SnakeGame",
 	"type" : "normal"
