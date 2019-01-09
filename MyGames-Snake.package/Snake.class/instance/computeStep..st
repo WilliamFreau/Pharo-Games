@@ -1,3 +1,8 @@
 Core
 computeStep: input
-	self subclassResponsibility 
+	| output |
+	output := SnakeOutput new.
+	
+	self computeStep: input output: output.
+	
+	^output

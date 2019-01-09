@@ -12,7 +12,9 @@
 		"gameShow",
 		"buffer",
 		"snakes",
-		"apples"
+		"apples",
+		"stop",
+		"gameThread"
 	],
 	"name" : "SnakeGame",
 	"type" : "normal"

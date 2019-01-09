@@ -1,3 +1,0 @@
-Core
-computeStep: input
-	^nil

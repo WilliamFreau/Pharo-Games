@@ -1,0 +1,3 @@
+thread
+timeBetweenFrame
+	^100
