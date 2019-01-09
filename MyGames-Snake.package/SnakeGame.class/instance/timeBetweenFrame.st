@@ -1,3 +1,3 @@
 thread
 timeBetweenFrame
-	^100
+	^10
