@@ -7,8 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"apples",
-		"advs",
-		"snakes"
+		"snakes",
+		"boardSizeMin",
+		"boardSizeMax"
 	],
 	"name" : "SnakeInput",
 	"type" : "normal"

@@ -3,6 +3,9 @@ gameLoop
 	| input |
 	input := SnakeInput new.
 	
+	input boardSizeMin: self boardSizeMin.
+	input boardSizeMax: self boardSizeMax.
+	
 	apples do: [ :anApple | input addApple: anApple ].
 	snakes do: [ :aSnake | input addSnake: aSnake ].
 	
