@@ -1,0 +1,3 @@
+action
+onClosed
+	self stopServer

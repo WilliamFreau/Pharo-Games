@@ -9,7 +9,12 @@
 		"ipInfo",
 		"infoServer",
 		"stateButton",
-		"listOfPlayer"
+		"listOfPlayer",
+		"listenSocket",
+		"myPort",
+		"serverRunning",
+		"serverThread",
+		"playerSockets"
 	],
 	"name" : "SnakeServer",
 	"type" : "normal"
