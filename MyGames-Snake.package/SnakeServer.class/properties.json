@@ -6,18 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"startButton",
-		"pauseButton",
-		"resetButton",
-		"gameShow",
-		"buffer",
-		"snakes",
-		"apples",
-		"stop",
-		"gameThread",
-		"newServer",
-		"connectToServer"
+		"ipInfo",
+		"infoServer",
+		"stateButton",
+		"listOfPlayer"
 	],
-	"name" : "SnakeGame",
+	"name" : "SnakeServer",
 	"type" : "normal"
 }

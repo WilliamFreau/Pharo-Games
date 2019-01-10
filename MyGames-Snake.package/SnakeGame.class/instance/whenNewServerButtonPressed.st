@@ -1,0 +1,3 @@
+action
+whenNewServerButtonPressed
+	SnakeServer new openWithSpec

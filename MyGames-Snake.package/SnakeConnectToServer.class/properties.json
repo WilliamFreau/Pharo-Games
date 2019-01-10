@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "MyGames-Snake-Render",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SnakeConnectToServer",
+	"type" : "normal"
+}
