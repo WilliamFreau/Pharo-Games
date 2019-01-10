@@ -4,7 +4,7 @@ startServer
 	
 	listenSocket := Socket newTCP.
 	listenSocket listenOn: myPort backlogSize: 10.
-	
+	Transcript crShow: 'Server run'.
 	serverRunning := true.
 	serverThread := [ 
 		[ self serverRunning ] whileTrue: [ 

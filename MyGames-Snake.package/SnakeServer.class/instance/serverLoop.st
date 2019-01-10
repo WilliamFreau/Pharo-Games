@@ -8,5 +8,5 @@ serverLoop
 		playerSockets add: { interactSocket. (ZdcSocketStream on: interactSocket). }.
 		self infoServer label: 'Nouvelle connexion'.
 	] ifNil: [ 
-		self infoServer label: self labelOnNoConnection.
+		self infoServer label: (self labelOnNoConnection).
 	 ]

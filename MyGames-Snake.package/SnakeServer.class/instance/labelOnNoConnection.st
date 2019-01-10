@@ -1,3 +1,3 @@
 thread
 labelOnNoConnection
-	'No connection'
+	^'No connection'
