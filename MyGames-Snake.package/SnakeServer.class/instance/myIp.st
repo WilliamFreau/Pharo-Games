@@ -1,0 +1,3 @@
+network
+myIp
+	^(NetNameResolver localAddressString)

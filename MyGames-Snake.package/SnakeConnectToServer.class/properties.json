@@ -5,7 +5,13 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"address",
+		"port",
+		"connect",
+		"labelAddress",
+		"labelPort"
+	],
 	"name" : "SnakeConnectToServer",
 	"type" : "normal"
 }

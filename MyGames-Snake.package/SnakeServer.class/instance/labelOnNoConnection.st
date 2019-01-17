@@ -1,3 +1,3 @@
 thread
 labelOnNoConnection
-	^'No connection'
+	^self serverRunning ifTrue: [ 'No new connection' ] ifFalse: [ 'Server not running' ].

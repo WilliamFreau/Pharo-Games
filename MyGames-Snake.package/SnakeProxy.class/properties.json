@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Snake",
+	"category" : "MyGames-Snake-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nom",
+		"socket",
+		"lastInput"
+	],
+	"name" : "SnakeProxy",
+	"type" : "normal"
+}
