@@ -1,5 +1,6 @@
 drawing
 render
-	self drawing.
-	
+	game ifNotNil: [
+		self drawing.
+	].
 	self gameShow image: (self buffer area form).

@@ -1,3 +1,4 @@
 gaming
 initGame: aGameCore
-	game := ColorGameCore new.
+	game := aGameCore.
+	self render.

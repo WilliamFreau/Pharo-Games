@@ -10,13 +10,13 @@ whenValidate
 		^false
 		 ].
 	
-	nbCellX := (';' split: nbCell) at: 1 asInteger.
-	nbCellY := (';' split: nbCell) at: 2 asInteger.
+	nbCellX := ((';' split: nbCell) at: 1) asInteger.
+	nbCellY := ((';' split: nbCell) at: 2) asInteger.
 	
-	nbColor := inputNbColor textHolder value.
+	nbColor := inputNbColor textHolder value asInteger.
 	
 	aColorCore maxSize: nbCellX@nbCellY.
-	aColorCore nbColor: nbColor.
+	aColorCore nbcolor: nbColor.
 	aColorCore generate.
 	
 	colorGame initGame:  aColorCore.
