@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "MyGames-Color-Render",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startButton",
+		"labelInfo",
+		"gameShow",
+		"buffer"
+	],
+	"name" : "ColorGame",
+	"type" : "normal"
+}
