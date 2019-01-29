@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"gameBoard",
+		"maxSize",
+		"nbcolor"
+	],
 	"name" : "ColorGameCore",
 	"type" : "normal"
 }
