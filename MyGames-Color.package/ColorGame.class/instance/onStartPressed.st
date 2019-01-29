@@ -1,0 +1,3 @@
+action
+onStartPressed
+	self initGame.

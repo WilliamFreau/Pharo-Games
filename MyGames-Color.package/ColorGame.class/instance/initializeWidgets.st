@@ -7,4 +7,6 @@ initializeWidgets
 	startButton label: 'NewGame'.
 	labelInfo label: 'info'.
 	
+	startButton action: [ self onStartPressed ].
+	
 	

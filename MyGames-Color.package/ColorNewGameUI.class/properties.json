@@ -6,13 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"startButton",
-		"labelInfo",
-		"gameShow",
-		"buffer",
-		"game",
-		"newGameUI"
+		"lblNbCell",
+		"inputNbCell",
+		"lblNbColor",
+		"inputNbColor",
+		"validate",
+		"colorGame"
 	],
-	"name" : "ColorGame",
+	"name" : "ColorNewGameUI",
 	"type" : "normal"
 }
