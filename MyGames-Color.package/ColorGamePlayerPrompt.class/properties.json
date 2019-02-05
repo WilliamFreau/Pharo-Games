@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "MyGames-Color-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"list",
+		"validate"
+	],
+	"name" : "ColorGamePlayerPrompt",
+	"type" : "normal"
+}
