@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "MyGames-Colonisation-Render",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ColonisationRender",
+	"type" : "normal"
+}
