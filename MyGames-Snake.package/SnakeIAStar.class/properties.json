@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Snake",
+	"category" : "MyGames-Snake-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SnakeIAStar",
+	"type" : "normal"
+}
