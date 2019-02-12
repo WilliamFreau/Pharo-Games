@@ -1,3 +1,3 @@
 gaming
 snakeClass
-	^SimpleAISnake 
+	^SnakeIAStar

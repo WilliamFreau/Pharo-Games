@@ -1,6 +1,12 @@
 Core
 getNeightOf: aPos onGrid: aGrid closedList: aClosedList
-	| list |
+	| neight ret|
 	
-	list := OrderedCollection new.
+	neight := aPos getNeightInGrid: aGrid.
+	ret := OrderedCollection new.
 	
+	neight do: [ :neigh | 
+		(aClosedList includes: neigh) ifFalse: [ ret add: neigh. ].
+	 ].
+	
+	^ret

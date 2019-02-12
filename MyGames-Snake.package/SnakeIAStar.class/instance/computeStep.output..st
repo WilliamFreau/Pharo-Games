@@ -1,8 +1,13 @@
 Core
 computeStep: input output: output
-	| grid paths |
+	| grid apples paths min selectedPath |
 	grid := self computeGrid: input.
 	paths := OrderedCollection new.
-	input apples do: [ :apple | 
+	apples := OrderedCollection new.
+	input apples do: [ :apple | apples add: ((Node new) pos: apple position). ].
+	apples do: [ :apple | 
 		paths add: (self computePathFrom: self head to: apple grid: grid)
-		 ]
+		 ].
+	min := 16rFFFFFF.
+	paths do: [ :path | (min > path size) ifTrue: [min = path size. selectedPath := path] ].
+	^selectedPath.
